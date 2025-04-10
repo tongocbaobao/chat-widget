@@ -948,6 +948,7 @@
     chatBody.classList.add('active');  // Hiển thị giao diện chat
     conversationId = createSessionId(); // Tạo session ID mới
     });
+     //startChatButton.addEventListener('click', showRegistrationForm);
     registrationForm.addEventListener('submit', handleRegistration);
     
     sendButton.addEventListener('click', () => {
